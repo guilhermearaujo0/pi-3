@@ -3,7 +3,7 @@ import pandas as pd
 
 query = "#AFazenda14"
 tweets = []
-limit = 10
+limit = 5000
 
 
 for tweet in sntwitter.TwitterSearchScraper(query).get_items():
